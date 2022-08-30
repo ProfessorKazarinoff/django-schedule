@@ -130,3 +130,7 @@ dmypy.json
 
 # VSCode
 .vscode/
+
+# File created by manage.py collectstatic
+
+staticfiles/
