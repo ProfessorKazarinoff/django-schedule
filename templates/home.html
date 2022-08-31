@@ -12,26 +12,16 @@
         <h5>The webapp to build door schedules</h5>
     </div>
 
-    <div> 
+    <div>
+        {% for instructor in object_list %}
+
         <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
             <div class="card-header">Quarter: 2022Q4</div>
             <div class="card-body">
-              <h4 class="card-title">Instructor Name</h4>
-              <p class="card-text">CRN #######</p>
-              <p class="card-text">CRN #######</p>
-              <p class="card-text">CRN #######</p>
-            </div>
-          </div>
-    </div>
-
-    <div>
-        {% for post in object_list %}
-
-        <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
-            <div class="card-header">Header</div>
-            <div class="card-body">
-              <h4 class="card-title">Primary card title</h4>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <h4 class="card-title">{{ instructor.first_name }} {{ instructor.last_name }}</h4>
+              <p class="card-text">ENGR 101 CRN ########</p>
+              <p class="card-text">ENGR 114 CRN ########</p>
+              <p class="card-text">ENGR 211 CRN ########</p>
             </div>
           </div>
 
