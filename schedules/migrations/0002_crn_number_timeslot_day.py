@@ -7,20 +7,20 @@ import django.utils.timezone
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('schedules', '0001_initial'),
+        ("schedules", "0001_initial"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='crn',
-            name='number',
+            model_name="crn",
+            name="number",
             field=models.IntegerField(default=1),
             preserve_default=False,
         ),
         migrations.AddField(
-            model_name='timeslot',
-            name='day',
-            field=models.CharField(default='', max_length=20),
+            model_name="timeslot",
+            name="day",
+            field=models.CharField(default="", max_length=20),
             preserve_default=False,
         ),
     ]

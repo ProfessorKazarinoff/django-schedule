@@ -6,13 +6,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('schedules', '0007_crn_code'),
+        ("schedules", "0007_crn_code"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='instructor',
-            name='middle_name',
-            field=models.CharField(default='', max_length=200),
+            model_name="instructor",
+            name="middle_name",
+            field=models.CharField(default="", max_length=200),
         ),
     ]

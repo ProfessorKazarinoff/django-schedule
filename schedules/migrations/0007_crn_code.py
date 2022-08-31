@@ -6,13 +6,13 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('schedules', '0006_remove_timeslot_end_remove_timeslot_start'),
+        ("schedules", "0006_remove_timeslot_end_remove_timeslot_start"),
     ]
 
     operations = [
         migrations.AddField(
-            model_name='crn',
-            name='code',
+            model_name="crn",
+            name="code",
             field=models.IntegerField(default=4),
             preserve_default=False,
         ),

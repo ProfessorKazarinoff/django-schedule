@@ -6,18 +6,18 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('schedules', '0003_remove_crn_number'),
+        ("schedules", "0003_remove_crn_number"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='timeslot',
-            name='end_time',
+            model_name="timeslot",
+            name="end_time",
             field=models.CharField(max_length=20),
         ),
         migrations.AlterField(
-            model_name='timeslot',
-            name='start_time',
+            model_name="timeslot",
+            name="start_time",
             field=models.CharField(max_length=20),
         ),
     ]
