@@ -1,3 +1,3 @@
 # django-schedule
 
-A hobby project to create a django website that holds faculty door schedules.
+A hobby project to create a Django website that holds faculty door schedules.
